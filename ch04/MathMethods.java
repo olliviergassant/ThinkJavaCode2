@@ -18,6 +18,18 @@ public class MathMethods {
         double x2 = Math.cos(angle + Math.PI / 2.0);
         double x3 = Math.exp(Math.log(10.0));
         double x4 = Math.pow(2.0, 10.0);
+       
+        // printing out the results of the math equations
+        
+        printing(x2);
+        printing(x3);
+        printing(x4);
+        printing(degrees);
+    }
+
+    public static void printing(double s) {
+        System.out.println(s);
+
     }
 
 }

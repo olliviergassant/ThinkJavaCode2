@@ -10,9 +10,13 @@ public class NewLine {
         newLine();
     }
 
+    public static void messageSandwhich() {
+    System.out.println("You're doing great sweetie!");
+    }
+
     public static void main(String[] args) {
         System.out.println("First line.");
-        threeLine();
+        messageSandwhich();
         System.out.println("Second line.");
     }
 
